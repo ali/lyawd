@@ -89,6 +89,8 @@ tell you anything.
    opportunity to learn about [chmod][] if you haven't already.  
    Do this:  
     `chmod -R 755 ~/.www`  
+   You might also want to change your home directory's permissions as well, just so people can't read that Hello Kitty fanfiction you've been writing in the lab.
+   `chmod 711 ~`
 
 3. Now you should get into your .www directory and make an index.html
    file, and maybe a style.css file if you're feeling snazzy.  
@@ -96,7 +98,7 @@ tell you anything.
     `vim index.html`  
     (or upload a file using `scp`: I'd type this from my own laptop (not ssh'd in to the CCIS machine): `scp index.html aliukani@login.ccs.neu.edu:~/.www`
 
-4. Chmod the file just like you did in step 2: `chmod 711 ~/.www`
+4. Chmod the file just like you did in step 2: `chmod 755 ~/.www/index.html`
 
 5. Go to http://www.ccs.neu.edu/home/yourccisusername/ (mine is http://www.ccs.neu.edu/home/aliukani/)
 

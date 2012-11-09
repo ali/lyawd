@@ -70,6 +70,8 @@ introduction to HTML][intro] is awesome.
 
 ## How to host a website on your CCIS account
 
+(Here's an older writeup on this from dnb: http://howto.ccs.neu.edu/howto/web/personal-web-pages/)
+
 I'm not going to explain how to SSH -- okay I half-lied: If
 you're on a Mac, open up Terminal. If you're on Windows, go get Cygwin
 or PuTTY and figure that out. If you're on Linux I shouldn't have to

@@ -82,12 +82,11 @@ tell you anything.
     `ssh aliukani@majorhavoc@ccs.neu.edu`
     "majorhavoc" is a lab machine. Some people use "turtles", "bubbles", or "hattrick")
 
-2. You now need to change your home directory (where all your junk is
-   stored) so that other people can see your website. This is a good
+2. You now need to change the permissions on your .www directory
+   so that other people can see your website. This is a good
    opportunity to learn about [chmod][] if you haven't already.  
    Do this:  
-    `chmod 711 ~`  
-    `chmod -R 711 .www`  
+    `chmod -R 755 ~/.www`  
 
 3. Now you should get into your .www directory and make an index.html
    file, and maybe a style.css file if you're feeling snazzy.  

@@ -93,6 +93,11 @@ tell you anything).
    file, and maybe a style.css file if you're feeling snazzy.  
     `cd ~/.www`  
     `vim index.html`  
+    (or upload a file using `scp`: I'd type this from my own laptop (not ssh'd in to the CCIS machine): `scp index.html aliukani@login.ccs.neu.edu:~/.www`
+
+4. Chmod the file just like you did in step 2: `chmod 711 ~/.www`
+
+5. Go to http://www.ccs.neu.edu/home/yourccisusername/ (mine is http://www.ccs.neu.edu/home/aliukani/)
 
 [chmod]: http://en.wikipedia.org/wiki/Chmod
 

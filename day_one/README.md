@@ -81,7 +81,7 @@ tell you anything.
    lab, but later on you can get access to some special CREW machines.  
    Type `ssh yourccisusername@login.ccs.neu.edu`  
    Today you saw me do this:
-    `ssh aliukani@majorhavoc@ccs.neu.edu`
+    `ssh aliukani@majorhavoc.ccs.neu.edu`
     "majorhavoc" is a lab machine. Some people use "turtles", "bubbles", or "hattrick")
 
 2. You now need to change the permissions on your .www directory

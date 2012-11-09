@@ -1,0 +1,16 @@
+body {
+  font-family: 'Comic Sans MS';
+}
+
+#something {
+  border: 5px solid #000;
+  margin: 1em auto;
+  padding: 10em;
+  background: blueViolet;
+  border-radius: 1000px;
+  width: 450px;
+}
+
+#spunker {
+  background: red;
+}

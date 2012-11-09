@@ -73,7 +73,7 @@ introduction to HTML][intro] is awesome.
 I'm not going to explain how to SSH -- okay I half-lied: If
 you're on a Mac, open up Terminal. If you're on Windows, go get Cygwin
 or PuTTY and figure that out. If you're on Linux I shouldn't have to
-tell you anything).
+tell you anything.
 
 1. You need to ssh on to a CCS box. These boxes are machines in the
    lab, but later on you can get access to some special CREW machines.  

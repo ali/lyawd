@@ -70,29 +70,37 @@ introduction to HTML][intro] is awesome.
 
 ## How to host a website on your CCIS account
 
+(Here's an older writeup on this from dnb: http://howto.ccs.neu.edu/howto/web/personal-web-pages/)
+
 I'm not going to explain how to SSH -- okay I half-lied: If
 you're on a Mac, open up Terminal. If you're on Windows, go get Cygwin
 or PuTTY and figure that out. If you're on Linux I shouldn't have to
-tell you anything).
+tell you anything.
 
 1. You need to ssh on to a CCS box. These boxes are machines in the
    lab, but later on you can get access to some special CREW machines.  
    Type `ssh yourccisusername@login.ccs.neu.edu`  
    Today you saw me do this:
-    `ssh aliukani@majorhavoc@ccs.neu.edu`
+    `ssh aliukani@majorhavoc.ccs.neu.edu`
     "majorhavoc" is a lab machine. Some people use "turtles", "bubbles", or "hattrick")
 
-2. You now need to change your home directory (where all your junk is
-   stored) so that other people can see your website. This is a good
+2. You now need to change the permissions on your .www directory
+   so that other people can see your website. This is a good
    opportunity to learn about [chmod][] if you haven't already.  
    Do this:  
-    `chmod 711 ~`  
-    `chmod -R 711 .www`  
+    `chmod -R 755 ~/.www`  
+   You might also want to change your home directory's permissions as well, just so people can't read that Hello Kitty fanfiction you've been writing in the lab.
+   `chmod 711 ~`
 
 3. Now you should get into your .www directory and make an index.html
    file, and maybe a style.css file if you're feeling snazzy.  
     `cd ~/.www`  
     `vim index.html`  
+    (or upload a file using `scp`: I'd type this from my own laptop (not ssh'd in to the CCIS machine): `scp index.html aliukani@login.ccs.neu.edu:~/.www`
+
+4. Chmod the file just like you did in step 2: `chmod 755 ~/.www/index.html`
+
+5. Go to http://www.ccs.neu.edu/home/yourccisusername/ (mine is http://www.ccs.neu.edu/home/aliukani/)
 
 [chmod]: http://en.wikipedia.org/wiki/Chmod
 

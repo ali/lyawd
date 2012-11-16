@@ -1,0 +1,32 @@
+body {
+  padding:0 0 0 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background:#ddd;
+}
+
+.container {
+  margin:30px auto;
+  width:800px;
+  background:#fff;
+  background: -webkit-linear-gradient(top, #fff 0%, #eee 100%);
+  border-radius:5px;
+  padding:15px;
+}
+
+form {
+  display:inline;
+}
+
+.done {
+  text-decoration:line-through;
+}
+
+h1 {
+  font-weight:normal;
+  text-align:center;
+}
+
+input[type="text"] {
+  width:740px;
+  padding:3px;
+}

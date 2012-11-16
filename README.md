@@ -9,8 +9,8 @@ There are only three sessions.
 1. Thurs, 11/8: HTML, CSS, & JS
 2. Thurs, 11/15: PHP & Ruby
 3. Thurs, 11/29: ???
-  * Ideas:
-    * Rails
-    * Meteor
-    * Being a hacker
-    * Show & tell
+  * Ideas:  
+     * Rails
+     * Meteor
+     * Being a hacker
+     * Show & tell

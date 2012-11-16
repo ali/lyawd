@@ -17,7 +17,7 @@ get '/' do
   adjectives = ['magical',
     'irresponsible',
     'lame',
-    'a unicorn',  # okay, some of these aren't really adjectives
+    'a unicorn',  # okay, not really an adjective
     'dead',
     'beautiful',
     'Barbara Streissand']

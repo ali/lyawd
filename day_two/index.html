@@ -1,0 +1,62 @@
+<html>
+<head>
+
+  <title>lyawd day 2</title>
+
+  <!-- Link Assets -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<div class="wrapper">
+
+  <div class="title">
+    <h1>Javascript!</h1>
+    <strong>Client side (in-browser) Programming</strong>
+  </div>
+
+  <div class="example">
+    <h3>Simple Alert</h3>
+    <pre>alert("Hello World");</pre>
+  </div>
+
+  <div class="example">
+    <h3>Adding an element</h3>
+    <pre>var link = document.createElement("a");
+link.innerHTML = "Click Me";
+link.href = "/dir/signup.html";
+document.getElementById("example-div").appendChild(link);</pre>
+
+    <div class="showoff" id="example-div"></div>
+    <span>example-div</span>
+  </div>
+
+  <div class="example">
+    <h3>Make something really ignoring</h3>
+    <pre>var box = document.createElement("div");
+box.innerHTML = "Blinking Div";
+document.getElementById("example-div2").appendChild(box);
+
+var colored = false;
+setInterval(function (argument) {
+  if (colored) {
+    box.style.background = "none";
+  } else {
+    box.style.background = "red";
+  }
+  colored = !colored;
+}, 500);</pre>
+
+    <div class="showoff" id="example-div2"></div>
+    <span>example-div2</span>
+  </div>
+
+</div>
+
+</body>
+
+<!-- Only load javascript after html is done -->
+<script type="text/javascript" src="script.js"></script>
+
+</html>

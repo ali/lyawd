@@ -1,5 +1,6 @@
 body {
   font-family: 'Comic Sans MS';
+  margin: 0;
 }
 
 #something {
@@ -11,6 +12,19 @@ body {
   width: 450px;
 }
 
-#spunker {
+#jonald {
+  padding: 15px;
   background: red;
+}
+
+/*
+NESTED STYLE
+this is the syntax for setting the styles of
+all img tags within the #jonald id tag.
+*/
+#jonald img {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: lightgray;
 }

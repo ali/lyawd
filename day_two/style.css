@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  font-family: Sans-Serif; /* Helvetica by default on mac */
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 15px;
+  width: 960px;
+  height: 100%;
+  background: #fafafa;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.title h1 {
+  font-size: 64px;
+  margin: 10px 0;
+}
+
+.example {
+  margin-bottom: 50px;
+}
+
+.example pre {
+  padding: 5px;
+  background: lightgray;
+}
+
+.example .showoff {
+  padding: 8px;
+  background: #fbf9ea;
+  border: 1px solid #e2e1d5;
+}
+
+.example span {
+  float: right;
+  font-size: 12px;
+  font-style: italic;
+}
